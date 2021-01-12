@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 20%;
+    font-size: 25px;
+    background-color: burlywood;
+}   
+
+form{
+    background-color: grey;
+    color: ivory;
+    border: solid black 6px;
+    margin: 4px;
+    padding: 4px;
+    flex-flow: column;
+    align-items: center;
+    
+}
+#button{
+    background-color: chartreuse;
+    color: black;
+    font-size: 22px;
+    border: solid black 4px;
+padding-bottom: 4px;}

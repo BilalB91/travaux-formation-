@@ -1,0 +1,335 @@
+@media screen and (max-width: 1024px)
+{
+
+.decouvrir{
+    border: goldenrod solid;
+    margin: 10px;
+    padding: 10px;
+}
+header p{
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+header a{
+    font-size: 22px;
+    text-decoration: none;
+    color: goldenrod;
+     
+}
+header{
+    background-image: url("../img/fondheader.png.png");
+    height: 100vh;
+}
+h1{
+    font-size:45px ;
+    color: goldenrod;
+    margin-inline-start: 25px;
+    padding: 255px;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 40%; 
+}
+nav a{
+    font-size: 22px;
+    text-decoration: none;
+}
+header p a:hover{
+    color: goldenrod;
+    border: solid goldenrod;
+    background-color: aliceblue; 
+}
+header div{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    background-color: rgba(235, 235, 235, 0.411);
+    padding: 10px;
+}
+.fond{
+    background: url("../img/christmas_banner.png") center/cover no-repeat;
+    height: 600px;
+    padding: 0;
+}
+i{
+    font-size: 5em;
+    display: flex;
+    align-items: center;
+}
+#banner{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    margin-right: 10px;
+    color: gold;
+    display: flex;
+    flex-direction: column;
+    margin: 55px;
+    
+}
+h2 a{
+    text-decoration: none; 
+}
+h3{
+    font-size:50px ;
+    color: goldenrod;
+    margin-inline-start: 50px;
+    padding: 55px;
+    margin: 0;
+}
+.fond .h22{
+    
+}
+/*h2 souligné*/
+.fond .h22 span{
+    border-bottom: solid 3px gold;
+    width: 130px;
+    align-self: flex-start;
+    color: gold;
+    margin: 0;
+}
+/*DISPOSITION DES BLOC D ENGAMEMNTS */
+.millieu0{
+    display: flex;
+    flex-direction: column;
+}
+/*boite engagement qualité POSITION COULEUR TAILLE DE POLICES*/
+.sec{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column ;
+    align-items: center;
+    color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 75px;
+    background-color: rgba(235, 235, 240, 0.411);
+    margin-left: 60px;
+    width: 350px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+/*image du milieu*/
+.millieu{
+
+    background: url("../img/christmas-3026685_1920.jpg") center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+     
+}
+.millieu .client{
+    font-weight: bold;
+}
+/* BLOC DU MILIEU DE PAGE TAILLE ET POSITIONS*/
+.millieu h2 {
+    color:black;
+    text-align: right;
+    font-size: 2em;
+    display: flex;
+    align-items: flex-end;
+    justify-content:flex-end ;
+    margin: 0;
+}
+/* JE VEUX QU UN AVIS SUR DEUX SOIS INVERSER*/
+.millieu .avis:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;  
+}
+/*NOM DES CLIENTS EN GRAS*/
+.nomclient{
+    font-weight: bold;
+}
+
+}
+.avis i{
+    margin: 3%;
+    padding: 3%;
+}
+
+/*TAILLE POLICE AVIS CLIENTS*/
+.avis p
+{
+    
+    font-size: 18px;
+    
+}
+
+/*BLOC AVIS DIMENSION COULEUR ESPACE*/
+.avis{
+    display: flex;
+    align-items: center;
+    margin:10px 0 10px 40%;
+    padding: 1%;
+    background-color: rgba(235, 235, 220, 0.411);
+
+    
+}
+
+.millieu .h2{
+    display: flex;
+    flex-direction: column;
+
+}
+.millieu .h2 span{
+    border-bottom: solid 3px black;
+    width: 130px;
+    align-self: flex-end;
+}
+/*pied de page*/
+
+.piedpage{
+    background: url("../img/christmas_banner4.png") center/cover no-repeat;
+    
+    padding: 0;
+}
+
+
+.piedpage{
+    padding: 6%;
+    text-align: center;
+}
+h3{
+    color: seashell;
+    font-size: 5em;
+}
+.piedpage #remise{
+    color:seagreen;
+}
+footer p{
+    text-align: center;
+    background-color: tan;
+    padding: 10px;
+    margin: 0;
+}
+/*BOUTIQUES IMAGES */
+#magasin p{
+    text-align: center;
+    font-size: 32px;
+    background-color: khaki;
+    color: red;
+    margin: 0;
+    font-weight: bolder;
+}
+#magasin a{
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+    font-size: 22px;
+}
+#vente a:hover{
+    color: blue;
+}
+
+#vente{
+    background-color: khaki;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+}
+#vente a {
+    text-decoration: none;
+}
+figure img{
+    height: 210px;
+    width: 210px;   
+}
+.zoom{
+    background: rgb(242,249,154);
+    background: linear-gradient(90deg, rgba(242,249,154,1) 2%, rgba(237,229,103,1) 44%, rgba(245,247,193,1) 98%);
+    margin: 0;
+}
+/*ZOOM IMAGE VENTE DECO*/
+    
+.zoom img {
+        height: 210px;
+        width: 210px;
+        margin: 0;
+    }
+
+    /* zoom de l'image 1.2x transition de taille a 0.5 seconde*/ 
+.zoom img:hover {
+    transform: scale(1.2);
+    transition: .5s;
+    }
+.zoom figure {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+/*CONTACT ET MAP*/
+#blocmap{
+    background-image: url("../img/white-wood-1971083_1920.jpg");        
+}
+#blocmap h2{
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+    color: goldenrod;
+    font-size: 3em;
+}
+#blocmap .titrecontact span{
+    border-bottom: solid 4px goldenrod;
+    width: 250px;
+    align-self: center;
+}
+#contact{
+   display: flex;
+   justify-content: space-around;
+   padding: 0;
+   margin: 0;
+   
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;  
+    padding: 10px;
+}
+.champs{
+    height: 25px;
+    width: 800px;
+}
+.msg{
+    height: 250px;
+    width: 800px;
+}
+.mapouter{
+    padding-top: 15px;
+}
+.btn{
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: green;
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+#contact form .btn:hover{
+    color: white;
+    border: solid greenyellow;
+
+}
+#contact .titrecontact span{
+    border-bottom: solid 3px black;
+    width: 130px;
+    
+}
+.champs:focus, .msg:focus{
+    outline: solid 3px green;
+}
+}
